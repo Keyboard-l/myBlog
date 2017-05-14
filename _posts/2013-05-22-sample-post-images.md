@@ -35,8 +35,8 @@ Apply the `half` class like so to display two images side by side that share the
 And you'll get something that looks like this:
 
 <figure class="half">
-	<a href="../assets/img/postimg/2013-05-22-sample-post-images/1200x600.JPG"><img src="../assets/img/postimg/2013-05-22-sample-post-images/600x300.jpg"></a>
-	<a href="../assets/img/postimg/2013-05-22-sample-post-images/1200x600.JPG"><img src="../assets/img/postimg/2013-05-22-sample-post-images/600x300.jpg"></a>
+	<a href="../assets/img/postimg/2013-05-22-sample-post-images/1200x600.jpg"><img src="../assets/img/postimg/2013-05-22-sample-post-images/600x300.jpg"></a>
+	<a href="../assets/img/postimg/2013-05-22-sample-post-images/1200x600.jpg"><img src="../assets/img/postimg/2013-05-22-sample-post-images/600x300.jpg"></a>
 	<figcaption>Two images.</figcaption>
 </figure>
 
