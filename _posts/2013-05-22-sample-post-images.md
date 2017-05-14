@@ -14,7 +14,7 @@ Here are some examples of what a post with images might look like. If you want t
 #### One Up
 
 <figure>
-	<a href="../assets/img/postimg/2013-05-22-sample-post-images/7758832526_cc8f681e48_b.jpg"><img src="../assets/img/postimg/2013-05-22-sample-post-images/7758832526_cc8f681e48_c.jpg"></a>
+	<a href="/assets/img/postimg/2013-05-22-sample-post-images/7758832526_cc8f681e48_b.jpg"><img src="../assets/img/postimg/2013-05-22-sample-post-images/7758832526_cc8f681e48_c.jpg"></a>
 	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
 </figure>
 
@@ -35,8 +35,8 @@ Apply the `half` class like so to display two images side by side that share the
 And you'll get something that looks like this:
 
 <figure class="half">
-	<a href="../assets/img/postimg/2013-05-22-sample-post-images/1200x600.JPG"><img src="../assets/img/postimg/2013-05-22-sample-post-images/600x300.jpg"></a>
-	<a href="../assets/img/postimg/2013-05-22-sample-post-images/1200x600.jpeg"><img src="../assets/img/postimg/2013-05-22-sample-post-images/600x300.jpg"></a>
+	<a href="/assets/img/postimg/2013-05-22-sample-post-images/1200x600.JPG"><img src="../assets/img/postimg/2013-05-22-sample-post-images/600x300.jpg"></a>
+	<a href="/assets/img/postimg/2013-05-22-sample-post-images/1200x600.jpeg"><img src="../assets/img/postimg/2013-05-22-sample-post-images/600x300.jpg"></a>
 	<figcaption>Two images.</figcaption>
 </figure>
 
@@ -90,8 +90,8 @@ Parameters:
 It will look something like this:
 
 {% capture images %}
-	../assets/img/postimg/2013-05-22-sample-post-images
-	../assets/img/postimg/2013-05-22-sample-post-images
+	../assets/img/postimg/2013-05-22-sample-post-images/Hinata.png
+	../assets/img/postimg/2013-05-22-sample-post-images/Hinata_Part_II.png
 	../assets/img/postimg/2013-05-22-sample-post-images/J%C5%ABho_S%C5%8Dshiken.png
 {% endcapture %}
 {% include gallery images=images caption="Test images" cols=3 %}
