@@ -163,13 +163,13 @@ Nginx的命令参数不多，常用的有一下几种
 Nginx主要依靠配置文件配置。我们打开Nginx的默认配置文件，一般是/etc/nginx/nginx.conf。具体文件位置可以通过`nginx -t`命令查看。默认配置文件大部分是加注释的，我们修改一部分。
 
 ```
-http {
+html{
     server {
         listen       80;
         # 默认的web访问端口
         server_name  0.0.0.0;
         # 你的公网ip
-        
+
         access_log  /root/myProject/Hello/logs/access.log;
         # 服务器接收的请求日志
         # 需要在项目文件夹下创建
@@ -202,6 +202,8 @@ http {
 ```
 
 > 其实你只需要在/etc/nginx/conf.d中新建一个配置文件将增加的部分填入即可，并不一定要修改默认配置文件。
+>
+> 记得注释掉默认配置文件中的`include /etc/nginx/sites-enabled/*;`
 
 *Ubuntu和CentOS中的Nginx的默认配置文件不完全相同，所以重要的是见机行事。
 
