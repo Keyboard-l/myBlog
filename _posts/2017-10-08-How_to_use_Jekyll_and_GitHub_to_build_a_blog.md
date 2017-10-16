@@ -3,7 +3,9 @@ layout: post
 title:  "在GitHub上通过Jekyll搭建个人博客"
 date:   2017-10-08
 excerpt: "10分钟拥有一个自己的博客"
-tags: [原创, SSS::TA教学]
+tag:
+- 原创
+- SSS::TA教学
 comments: true
 ---
 
